@@ -20,7 +20,6 @@ def blink_led(delay):
 
 def main():
     switch.init()
-    time = 0
     while 1:
         if switch.read_slide_switch():
             blink_led(0.2)
